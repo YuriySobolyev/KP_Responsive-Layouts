@@ -72,6 +72,10 @@ header {
 
 }
 
+.logo {
+    z-index: 1;
+}
+
 nav {
     height: 35px;
     display: flex;
@@ -130,19 +134,20 @@ nav {
 /**/
 .nav__block {
     position: absolute;
-    left: -100%;
-    top: 70px;
+    left: 0;
+    top: -100%;
     background: #2E323F;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 0;
+    padding-bottom: 60px;
     transition: all .5s ease-in-out;
 }
 
 .toggle_nav {
     left: 0;
+    top: 75px;
 }
 
 .menu_toggler {
@@ -261,13 +266,13 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-    h1{
+    h1 {
         font-size: 90px;
     }
 
     .sidebar,
-     .column__content--column,
-    .footer__links{
+    .column__content--column,
+    .footer__links {
         display: flex;
         gap: 15px;
         justify-content: space-between;
@@ -280,5 +285,44 @@ footer {
 
     .column {
         padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        display: flex;
+    }
+
+    .menu_toggler {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .nav__block {
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        position: inherit ;
+        justify-content: flex-end;
+        transition: none;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .nav__list--2 {
+        margin-left: 2em;
+    }
+
+    .nav__item{
+        margin: 0;
     }
 }
