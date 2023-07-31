@@ -37,6 +37,7 @@ h4 {
     font-size: 54px;
     font-family: 'Oswald', sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -222,7 +223,8 @@ nav {
 .sidebar__column {
     margin: 1em auto;
     padding: 1.2em 2em;
-    max-width: 400px;
+    /*max-width: 340px;*/
+    text-align: center;
 }
 
 .sidebar__column {
@@ -242,7 +244,6 @@ footer {
     padding: 80px 0;
     color: #6F737F;
     font-size: 16px;
-    text-align: center;
 }
 
 .footer__text--h {
@@ -257,4 +258,27 @@ footer {
     color: #6F737F;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+}
+
+@media screen and (min-width: 700px) {
+    h1{
+        font-size: 90px;
+    }
+
+    .sidebar,
+     .column__content--column,
+    .footer__links{
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .sidebar__column,
+    .column {
+        margin: 60px 0;
+    }
+
+    .column {
+        padding: 10px;
+    }
 }
