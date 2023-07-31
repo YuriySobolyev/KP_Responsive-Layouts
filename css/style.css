@@ -288,9 +288,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 1000px) {
-    .container {
+@media screen and (min-width: 1110px) {
+    .container,
+    .intro .container{
         display: flex;
+        flex-direction: row;
     }
 
     .menu_toggler {
@@ -324,5 +326,18 @@ footer {
 
     .nav__item{
         margin: 0;
+    }
+
+    .intro__slog {
+        width: 100%;
+    }
+
+    .intro_content {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding-bottom: 1.5em;
+        padding-right: 80px;
     }
 }
