@@ -7,7 +7,7 @@
 [https://kp-responsive-layouts-challenge.netlify.app/](https://kp-responsive-layouts-challenge.netlify.app/)
 
 
-![Conquering Responsive Layouts](img/mockup.jpg)
+![Conquering Responsive Layouts](./img/mockup.jpg)
 ###
 One of the most frequently cited excuses for adopting a desktop-first approach is that it aligns with the design provided. Nevertheless, as we've explored the possibilities of mobile-first development, we can still effectively handle this situation. Let's put this knowledge into action!
 
