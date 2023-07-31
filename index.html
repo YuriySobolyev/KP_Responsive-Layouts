@@ -7,9 +7,162 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="/img/logo.svg">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+          rel="stylesheet">
+    <script defer src="js/index.js"></script>
     <title>Conquering Responsive Layouts</title>
 </head>
 <body>
+<header>
+    <div class="container row">
+        <nav>
+            <div class="menu_toggler">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <a href="#" class="logo">
+                <img src="/img/logo.svg" alt="logo">
+            </a>
+            <div class="nav__block">
+                <ul class="nav__list nav__list--1">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+                <ul class="nav__list nav__list--2">
+                    <li class="nav__item"><a class="nav__link" href="#">Sign in</a></li>
+                    <li class="nav__item btn"><a class="nav__link" href="#">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="intro">
+    <div class="container row">
+        <div class="intro__slog">
+            <h1><span>Responsive<br>
+                Layouts</span> don’t<br>
+                have to be a<br>
+                struggle</h1>
+        </div>
+        <div class="intro_content">
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.</p>
+            <a class="intro__btn btn">I want to learn</a>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="column__content">
+        <div class="container row">
+            <div class="column">
+                <h3>CMobile-first</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.</p>
+            </div>
+            <div class="column">
+                <h3>Efficient</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.</p>
+            </div>
+            <div class="column">
+                <h3>Done right</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.</p>
+            </div>
+        </div>
+    </div>
+    <div class="main__content">
+        <div class="container row">
+            <div class="content">
+                <h2>It doesn’t have to be so hard</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda deserunt enim error ex
+                    ipsam laborum minima molestias neque nesciunt nobis officiis praesentium, similique sint vero. Ab
+                    earum est officiis.</p>
+
+                <div class="content__img"><img src="/img/img.png" alt="responcive design img"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda deserunt enim error ex
+                    ipsam laborum minima molestias neque nesciunt nobis officiis praesentium, similique sint vero. Ab
+                    earum est officiis.</p>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar__column">
+                    <h3>Break it down</h3>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+                <div class="sidebar__column">
+                    <h3>Work your way up</h3>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+                <div class="sidebar__column">
+                    <h3>Creative</h3>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container row">
+        <h4>Just scratching the surface</h4>
+        <div class="foter__text">
+            <p class="footer__text--h">About our company</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.</p>
+        </div>
+        <div class="footer__links">
+            <div class="footer__links--block">
+                <p class="footer__text--h">Getting around</p>
+                <ul class="footer__links--list">
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">Home</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">About</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__links--block">
+                <p class="footer__text--h">Other things</p>
+                <ul class="footer__links--list">
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">My Youtube channel</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">HTML & CSS Crash Course</a>
+                    </li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">Web Design Bootcamp</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">Free CSS Course </a></li>
+                </ul>
+            </div>
+            <div class="footer__links--block">
+                <p class="footer__text--h">And more</p>
+                <ul class="footer__links--list">
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">FrontEndMentor</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">FreeCodeCamp</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">DesignCourse</a></li>
+                    <li class="footer__links--item"><a class="footer__links--link" href="#">DevEd</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
